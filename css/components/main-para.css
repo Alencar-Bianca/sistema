@@ -1,5 +1,14 @@
 .main-para{
+    font-size: 1.2em;
+    line-height: 28px;
+    text-align: justify;
+    padding: 0 2%;
+}
+.-p{
     color: var(--color02);
     font-weight: bold;
-    font-size: 1.2em;
+}
+.-pcolor{
+    color: #fff;
+    font-family: var(--font02);
 }
