@@ -1,5 +1,5 @@
 .main-time{
-    padding: 20px;
+    padding: 40px;
     background-color: var(--color03);
 }
 .w50{
@@ -20,6 +20,7 @@
 .inlineflex{
     display: inline-flex;
     align-items: center;
+    
 }
 .-titletime{
     font-size: 2.3em;
@@ -30,6 +31,6 @@
   
 }
 .-ptime{
-    max-width: 500px;
+    max-width: 600px;
     padding: 0;
 }

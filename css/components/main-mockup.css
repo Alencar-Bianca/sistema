@@ -1,0 +1,9 @@
+.main-mockup{
+    padding: 20px;
+    text-align: center;
+}
+.imgmock{
+    position: relative;
+    top:50px;
+    max-width: 100%;
+}
