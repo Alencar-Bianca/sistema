@@ -1,0 +1,16 @@
+.main-menu .ul{
+    display: flex;
+    list-style-position: inside;
+    list-style-type: none;
+}
+.main-menu .ul .li{
+    margin-left: 25px;
+}
+.link{
+    color: var(--color05);
+    font-weight: bold;
+    font-family: var(--font02);
+}
+.link:hover{
+    color: var(--color04);
+}

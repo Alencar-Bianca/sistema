@@ -1,0 +1,9 @@
+.main-title{
+    color: var(--color05);
+    font-family: var(--font01);
+    font-size: 2.8em;
+}
+.-h1{
+    font-size: 2.2em;
+    margin-bottom: 5px;
+}

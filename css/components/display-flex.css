@@ -1,0 +1,18 @@
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+.container{
+	width: 100%;
+	max-width: 1024px;
+	padding: 0 2%;
+	margin: auto;
+}
+.-flex{
+	display: block;
+	text-align: center;
+	font-family: var(--font03);
+	font-weight: lighter;
+	margin-top: 150px;
+}
