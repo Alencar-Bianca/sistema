@@ -1,0 +1,35 @@
+.main-time{
+    padding: 20px;
+    background-color: var(--color03);
+}
+.w50{
+    width: 50%;
+    padding: 0 2%;
+}
+.span{
+    font-family: var(--font03);
+    font-weight: 500;
+    display: block;
+    font-size: 0.8em;
+}
+.photo{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.inlineflex{
+    display: inline-flex;
+    align-items: center;
+}
+.-titletime{
+    font-size: 2.3em;
+}
+.-w100{
+	display: flex;
+	width: 100%;
+  
+}
+.-ptime{
+    max-width: 500px;
+    padding: 0;
+}

@@ -4,7 +4,7 @@
     text-align: justify;
     padding: 0 2%;
 }
-.-p{
+.-pheader{
     color: var(--color02);
     font-weight: bold;
 }
@@ -12,3 +12,4 @@
     color: #fff;
     font-family: var(--font02);
 }
+
