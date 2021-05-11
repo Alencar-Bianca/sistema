@@ -1,0 +1,18 @@
+.main-bnt{
+    display: inline-block;
+    background-color: var(--color01);
+    padding: 10px;
+    border-radius: 10px;
+}
+.-colorcontact{
+    color: var(--color04);
+}
+.-bnt{
+    margin-top: 15px;
+}
+.-bntlink{
+    color: #fff;
+}
+.-bntlink:hover{
+    color: rgb(231, 230, 230);
+}
