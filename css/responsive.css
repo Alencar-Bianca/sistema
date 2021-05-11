@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px){
+    .main-time .container{
+        max-width: 100%;
+    }
+    
+    .-w100{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .w50{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 510px){
+    .main-menu{
+        display: none;
+    }
+    .banner-header .main-title{
+        width: 100%;
+        text-align: center;
+    }
+    .-flex{
+        display: block;
+        text-align: center;
+        font-family: var(--font03);
+        font-weight: lighter;
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 320px){
+    .main-mockup .main-title{
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 245px){
+    .photo{
+        display: none;
+    }
+}
