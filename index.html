@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/display-flex.css">
     <link rel="stylesheet" href="css/components/main-menu.css">
+    <link rel="stylesheet" href="css/components/menu-mobile.css">
     <link rel="stylesheet" href="css/components/main-para.css">
     <link rel="stylesheet" href="css/components/main-about.css">
     <link rel="stylesheet" href="css/components/main-time.css">
@@ -29,18 +30,25 @@
 <body>
     <header class="banner-header">
         <div class="display-flex container">
-            <h1 class="main-title">Alencar</h1>
+            <h1 class="main-title logo">Alencar</h1>
             <nav class="main-menu">
                 <ul class="ul">
                     <a class="link" href=""><li class="li">HOME</li></a>
-
                     <a class="link" href=""><li class="li">SOBRE</li></a>
-
                     <a class="link" href=""><li class="li">EQUIPE</li></a>
-
                     <a class="link" href=""><li class="li">CONTATO</li></a>
                 </ul>
             </nav>
+
+            <nav class="menu-mobile">
+                <ul class="ul">
+                    <a class="link" href=""><li class="li">HOME</li></a>
+                    <a class="link" href=""><li class="li">SOBRE</li></a>
+                    <a class="link" href=""><li class="li">EQUIPE</li></a>
+                    <a class="link" href=""><li class="li">CONTATO</li></a>
+                </ul>
+            </nav>
+
         </div>
         <div class="container -flex">
             <h1 class="main-title -h1">Sistemas Próprios <br> Para Empresas Autênticas</h1>
@@ -92,7 +100,7 @@
                 </div>
             </div>
         </section>
-
+    </main>
         <footer class="main-footer">
             <div class="container">
                 <p class="main-para -pcolor -pfooter">Todos os direitos reservados</p>
@@ -100,6 +108,8 @@
 
             </div>
         </footer>
-    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/equipe.js"></script>
 </body>
 </html>
